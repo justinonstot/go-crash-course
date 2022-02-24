@@ -1,26 +1,14 @@
 package main
 
-import (
-	"fmt"
-	"myapp/packageone"
-)
+import "myapp/packageone"
 
-var one = "One"
+var myVar string = "I am myVar"
 
 func main() {
 
-	fmt.Println(one)
+	var blockVar string = "I am blockVar"
 
-	myFunc()
+	secondVar := "some value"
+	packageone.PrintMe(myVar, blockVar)
 
-	newString := packageone.PublicVar
-	fmt.Println("From packageone: ", newString)
-
-	packageone.Exported()
-}
-
-func myFunc() {
-	var one = "the number one"
-
-	fmt.Println(one)
 }
