@@ -2,8 +2,8 @@ package main
 
 import (
 	"bufio"
+	"doctor"
 	"fmt"
-	"myapp/doctor"
 	"os"
 	"strings"
 )
