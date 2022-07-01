@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	"doctor"
+	"doctor/doctor"
 	"fmt"
 	"os"
 	"strings"
